@@ -38,7 +38,6 @@ It is highly recommended you don't use the a refresh delay of under 5 MS for mor
 ## Authors
 
 Christian Allbright  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
