@@ -28,7 +28,7 @@ function sendWebhook(productName, productImage, productLink, productPrices) {
 }
 
 async function checkForNewProducts() {
-  const response = await axios.get('https://thevan.nike.com/the-vault.html', {
+  const response = await axios.get('https://website.com/products.html', {
     headers: {
       Cookie:
         'X-Magento-Vary=13a9928d7199f2215b38b21f6435815e4fc56d46; PHPSESSID=ichnfqh6iv3rqrsvu0v89909a3;',
@@ -78,4 +78,3 @@ let previousNames = [];
 setInterval(checkForNewProducts, 10000); // 10 seconds
 //[a,b,c] [a,b,c]
 //[a,b,c] [a,b,c,d]
-// https://thevan.nike.com/the-vault.html
